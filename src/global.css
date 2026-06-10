@@ -71,19 +71,19 @@
     }
 
     .home-avatar {
-        @apply size-16 rounded-full;
+        @apply size-12 rounded-full;
     }
 
     .home-user-name {
-        @apply ml-4 text-2xl font-sans-bold text-primary;
+        @apply ml-4 text-xl font-sans-bold text-primary;
     }
 
     .home-add-icon {
-        @apply size-12;
+        @apply size-8;
     }
 
     .home-balance-card {
-        @apply my-2.5 min-h-50 justify-between gap-5 rounded-bl-4xl rounded-tr-4xl bg-accent p-6;
+        @apply my-3 min-h-40 justify-between gap-5 rounded-bl-4xl rounded-tr-4xl bg-accent p-6;
     }
 
     .home-balance-label {
@@ -103,11 +103,11 @@
     }
 
     .list-head {
-        @apply my-5 flex-row items-center justify-between;
+        @apply my-4 flex-row items-center justify-between;
     }
 
     .list-title {
-        @apply text-2xl font-sans-bold text-primary;
+        @apply text-xl font-sans-bold text-primary;
     }
 
     .list-action {
@@ -127,7 +127,7 @@
     }
 
     .upcoming-icon {
-        @apply size-14;
+        @apply size-12;
     }
 
     .upcoming-price {
