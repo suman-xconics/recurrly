@@ -1,12 +1,7 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import { Redirect } from "expo-router";
 
 const Onboarding = () => {
-  return (
-    <View>
-      <Text>Onboarding</Text>
-    </View>
-  )
+  return <Redirect href="/(auth)/sign-in" />;
 }
 
-export default Onboarding
+export default Onboarding;

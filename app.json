@@ -47,6 +47,16 @@
             "./assets/fonts/PlusJakartaSans-Light.ttf"
           ]
         }
+      ],
+      "@clerk/expo",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Recurly uses your photo library to update your account avatar.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
       ]
     ],
     "experiments": {
