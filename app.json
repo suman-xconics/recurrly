@@ -1,16 +1,18 @@
 {
   "expo": {
-    "name": "recurrly",
+    "name": "Recurrly",
     "slug": "recurrly",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icons/logo.png",
     "scheme": "recurrly",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.recurrly.app",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.recurrly.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -30,7 +32,7 @@
         {
           "backgroundColor": "#208AEF",
           "android": {
-            "image": "./assets/images/splash-icon.png",
+            "image": "./assets/images/splash-pattern.png",
             "imageWidth": 76
           }
         }
